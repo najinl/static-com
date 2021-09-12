@@ -1,0 +1,117 @@
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+  background-color: #e2e2e2;
+  min-height: 100%;
+  /* background-image: url("./assets/burger-friends.jpg");
+  background-position: center;
+  background-size: cover; */
+}
+
+h2 {
+  color: #423e4e;
+}
+p {
+  margin: 2px;
+}
+
+.pre-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #052325;
+  height: 3em;
+  /* margin: 0px; */
+}
+
+.username {
+  color: #017cba;
+}
+
+.main-header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px;
+  background-color: #052325;
+  color: white;
+  /* padding: 0px 0px 10px 0px; */
+  margin-bottom: 25px
+  /* border: solid 2px green; */
+}
+
+.nav-menu{
+  display: flex;
+  flex: 4;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 20px;
+  /* border: solid 2px orange; */
+}
+
+.icon{
+  padding: 0px 15px 0px 0px;
+}
+
+.nav-logo{
+  flex: 1;
+  /* border: solid 2px purple; */
+}
+
+.main {
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  /* grid-template-columns: repeat(auto-fill, minmax(480px, 1fr)); */
+  row-gap: 15px;
+  column-gap: 0px;
+  margin: 30px 25px 0px 25px;
+  /* max-height: 90%; */
+}
+
+.nalle-container {
+  display: float;
+  /* flex-direction: row; */
+  max-height: 300px;
+  width: 92%;
+  border: solid .25px #8e94a3;
+  background-color: #ffffff;
+  box-shadow: 6px 6px 10px #8e94a3;
+  border-radius: 2px;
+}
+
+/* .nav-logo {
+  align-self: flex-end;
+} */
+
+.share-img, .calendar-img, .video-img{
+  padding: 0px 10px 0px 0px;
+}
+
+.logo-img {
+  float: right;
+  padding-right: 20px;
+  margin-bottom: 25px;
+}
+
+.nalle-img {
+    max-width: 100%;
+    opacity: 0.85;
+    /* margin-bottom: 0px; */
+}
+
+.nalle-details {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px 0px 20px ;
+  margin-top: 0px;
+}
+
+.nalle-name {
+  color: #423e4e;
+  font-weight: bold;
+  font-size: 16px;
+}
