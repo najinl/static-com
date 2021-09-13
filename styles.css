@@ -2,15 +2,13 @@
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0px;
-  background-color: #e2e2e2;
+  background-color: #f1f2f3;
   min-height: 100%;
-  /* background-image: url("./assets/burger-friends.jpg");
-  background-position: center;
-  background-size: cover; */
 }
 
 h2 {
   color: #423e4e;
+  margin-left: 35px;
 }
 p {
   margin: 2px;
@@ -22,11 +20,16 @@ p {
   align-items: center;
   background-color: #052325;
   height: 3em;
-  /* margin: 0px; */
+  padding-right: 1em;
 }
 
 .username {
   color: #017cba;
+  padding: 0em .5em 0em 0.5em;
+}
+
+.down-toggle {
+  height: .95em;
 }
 
 .main-header{
@@ -79,13 +82,12 @@ p {
   width: 92%;
   border: solid .25px #8e94a3;
   background-color: #ffffff;
+  /* color: #423e4e; */
+  color:#696969;
   box-shadow: 6px 6px 10px #8e94a3;
   border-radius: 2px;
+  font-size: 1.15em;
 }
-
-/* .nav-logo {
-  align-self: flex-end;
-} */
 
 .share-img, .calendar-img, .video-img{
   padding: 0px 10px 0px 0px;
@@ -100,7 +102,6 @@ p {
 .nalle-img {
     max-width: 100%;
     opacity: 0.85;
-    /* margin-bottom: 0px; */
 }
 
 .nalle-details {
@@ -111,7 +112,32 @@ p {
 }
 
 .nalle-name {
-  color: #423e4e;
   font-weight: bold;
-  font-size: 16px;
+  text-shadow: 1px 1px #c9c9c9;
+}
+
+.time{
+  font-size: .78em;
+  color: #aaaaaa;
+}
+
+.rec-address{
+  background-color: #f1f2f3;
+  /* color: #56677a; */
+  font-size: 0.68em;
+  font-weight: bold;
+  color: #778899;
+  width: 90%;
+  overflow-wrap: break-word;
+  padding: 8px 6px 10px 4px;
+}
+
+.schedule, .attachments {
+  font-size: 0.78em;
+  font-weight: bold;
+}
+
+.attachments-num {
+  color: #00c5e1;
+  font-size: 1.35em;
 }
