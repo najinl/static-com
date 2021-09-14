@@ -4,14 +4,7 @@
 ## Abstract
 This comp layout was created as a solo project in which Mod2 Turing School of Software & Design students were instructed to replicate a design provided by instructors. CSS flexbox and grid were both used in conjunction with html to create this webpage layout.
 
-<img
-  style="width: 100%; margin: auto; display: block;"
-  class="vidyard-player-embed"
-  src="https://play.vidyard.com/LHK5j63wP4G9mjXSciBVjw.jpg"
-  data-uuid="LHK5j63wP4G9mjXSciBVjw"
-  data-v="4"
-  data-type="inline"
-/>
+https://secure.vidyard.com/organizations/1826618/players/LHK5j63wP4G9mjXSciBVjw?edit=true#embed
 
 ## Instructions to Access Application
 
